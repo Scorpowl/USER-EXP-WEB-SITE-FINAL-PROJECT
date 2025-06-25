@@ -32,7 +32,46 @@
                 <p>Fly with comfort, arrive with a smile. The world is waiting.</p>
             </div>
         </section>
-
+        <section id="booking">
+            <form id="booking-form" class="booking-form">
+                <h2>Book Your Flight</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="from">From</label>
+                        <input type="text" id="from" placeholder="e.g., New York (JFK)">
+                    </div>
+                    <div class="form-group">
+                        <label for="to">To</label>
+                        <input type="text" id="to" placeholder="e.g., London (LHR)">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="departure">Departure Date</label>
+                        <input type="date" id="departure">
+                    </div>
+                    <div class="form-group">
+                        <label for="return">Return Date</label>
+                        <input type="date" id="return">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="passengers">Passengers</label>
+                        <input type="number" id="passengers" value="1" min="1">
+                    </div>
+                     <div class="form-group">
+                        <label for="class">Class</label>
+                        <select id="class">
+                            <option value="economy">Economy</option>
+                            <option value="business">Business</option>
+                            <option value="first">First Class</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="cta-button">Search Flights ✈️</button>
+            </form>
+        </section>
 
 
 
