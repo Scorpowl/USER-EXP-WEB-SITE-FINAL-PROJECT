@@ -20,7 +20,7 @@
                 <li><a href="#offers">Deals</a></li>
                 <li><a href="#about">About Us</a></li>
             </ul>
-            <a href="#booking" class="nav-button">Book Now</a>
+            <a href="#booking-form" class="nav-button">Book Now</a>
         </nav>
     </header>
 
@@ -32,9 +32,16 @@
                 <p>Fly with comfort, arrive with a smile. The world is waiting.</p>
             </div>
         </section>
+
         <section id="booking">
             <form id="booking-form" class="booking-form">
                 <h2>Book Your Flight</h2>
+                    <div class="flight-type">
+                        <input type="radio" id="round-trip" name="flight-type" value="round-trip" checked>
+                        <label for="round-trip">Round Trip</label>
+                        <input type="radio" id="one-way" name="flight-type" value="one-way">
+                        <label for="one-way">One Way</label>
+                    </div>
                 <div class="form-row">
                     <div class="form-group">
                         <label for="from">From</label>
@@ -72,6 +79,7 @@
                 <button type="submit" class="cta-button">Search Flights ✈️</button>
             </form>
         </section>
+
         <section id="destinations">
             <h2>Featured Destinations</h2>
             <div class="destination-grid">
@@ -110,10 +118,11 @@
                     <h3>ESCAPE TO ROME</h3>
                     <p class="offer-discount">30% OFF</p>
                     <p>Experience the eternal city. All-inclusive packages from New York starting at just <strong>$699</strong>! Book by Friday to claim this offer.</p>
-                    <a href="#booking-form" class="cta-button">Claim Deal!</a>
+                    <a href="#booking-form" class="cta-button cta-button-outline">Claim Deal!</a>
                 </div>
             </div>
         </section>
+        
         <section id="about">
              <h2>Why Fly Aether Wings?</h2>
              <div class="features-container">
@@ -136,6 +145,7 @@
         </section>
 
     </main>
+
     <footer>
         <div class="footer-content">
             <div class="footer-section">
